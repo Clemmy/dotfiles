@@ -1,0 +1,15 @@
+[user]
+	name = Clement Hoang
+	email = clement.hoang24@gmail.com
+[merge]
+	ff = false
+	tool = diffmerge
+	renameLimit = 999999
+[url "https://"]
+	insteadOf = git://
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+[diff]
+[diff]
+	renames = true
