@@ -94,3 +94,4 @@ DEFAULT_USER=`whoami`
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 set -o vi
+bindkey -M vicmd '?' history-incremental-search-backward
