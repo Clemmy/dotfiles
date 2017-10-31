@@ -1,0 +1,5 @@
+'.editor':
+  'ctrl-w l': 'window:focus-pane-on-right'
+  'ctrl-w h': 'window:focus-pane-on-left'
+  'ctrl-w k': 'window:focus-pane-above'
+  'ctrl-w j': 'window:focus-pane-below'
