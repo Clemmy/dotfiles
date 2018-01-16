@@ -194,3 +194,10 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Toggle NERDTree
 nmap <leader>\ :NERDTreeToggle<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" NERDCOMMENTER
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Add 1 space after comment delimiters
+let g:NERDSpaceDelims = 1
